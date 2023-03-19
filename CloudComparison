@@ -1,0 +1,47 @@
+# Cloud Storage Comparison
+
+## Amazon S3
+- Highly scalable, durable, and reliable storage service
+- Suitable for a wide range of use cases
+- Can store and retrieve any amount of data from any location
+- Pricing is based on the amount of data stored, number of requests made, and any data transfer costs
+- Offers integrations with other AWS services and many, many third-party tools
+- Provides a wide range of security and compliance features
+
+## Microsoft Azure Blob Storage
+- Highly available and scalable object storage for unstructured data
+- Offers tiered storage options for infrequently accessed data, reducing storage costs
+- No charge for ingress
+- Pricing is based on the amount of data stored, number of requests made, and any data transfer costs
+- Offers integrations with other Azure services
+- Provides a range of security features, including encryption
+
+## Google Cloud Storage
+- Highly scalable and durable object storage with low latency and high throughput
+- Pricing is based on the amount of data stored, number of requests made, and any data transfer costs
+- Offers integrations with other Google Cloud Platform services
+- Provides a range of features, including data encryption at rest and in transit, and high standards for performance, resilience, availability, correctness, and security.
+
+## IBM Cloud Object Storage
+- Highly scalable and durable object storage compatible with S3
+- Designed for large-scale use cases, like backup and archive
+- Provides tiered storage options and flexible pricing based on storage usage, region, and pricing plan
+- Offers integrations with other IBM Cloud services and third-party tools
+- Provides a range of security features, including encryption
+
+## Wasabi Hot Cloud Storage
+- Low-cost and high-speed alternative to AWS S3
+- Flat pricing rate with no additional costs for egress or API requests
+- Offers integrations with many third-party tools
+- Provides a range of security and compliance features like object lock and bucket immutability
+
+
+## Cost comparison
+Pricing varies depending on regions, plans, and account options, but this is an estimated cost per TB per year
+| Company    | Estimate|
+|------------|---------|
+| Amazon     | $282    | 
+| Microsoft  | $255    | 
+| Google     | $282    |
+| IBM        | $270    | 
+| Wasabi     | $71     |
